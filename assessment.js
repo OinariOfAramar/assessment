@@ -33,7 +33,6 @@
       resultDivided.appendChild(paragraph);
 
       // ツイートエリアの作成
-    
       removeAllChildren(tweetDivided);
       const anchor = document.createElement('a');
       const hrefValue = 'https://twitter.com/intent/tweet?button_hashtag=%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E3%81%84%E3%81%84%E3%81%A8%E3%81%93%E3%82%8D&text='
@@ -69,7 +68,7 @@
       '{userName}のいいところは気配りです。{userName}の配慮が多くの人を救っています。',
       '{userName}のいいところはその全てです。ありのままの{userName}自身がいいところなのです。',
       '{userName}のいいところは自制心です。やばいと思ったときにしっかりと衝動を抑えられる{userName}が皆から評価されています。',
-      '{userName}のいいところは優しさです。周りから{userName}の優しさに漬け込むものがよく現れるほどです。'
+      '{userName}のいいところは優しさです。と適当に{userName}があしらわれる様が思い浮かびます。'
   ];
 
   /**
@@ -92,7 +91,6 @@
       return result;
   }
 
-  
   // テストコード
   console.assert(
       assessment('太郎') === '太郎のいいところは決断力です。太郎がする決断にいつも助けられる人がいます。',
